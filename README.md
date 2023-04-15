@@ -55,9 +55,9 @@ sudo /opt/sonarqube/bin/linux-x86-64/sonar.sh start
 - Navigate to Jenkins > Manage Jenkins > Configure System.
 - Scroll down to the "SonarQube servers" section.
 - Click "Add SonarQube" and fill in the following fields:
-- - Name: SonarQube
-- - Server URL: http://<your-ec2-instance-public-ip>:9000
-- - Authentication token: <your-sonarqube-auth-token>
+ - Name: SonarQube
+ - Server URL: http://<your-ec2-instance-public-ip>:9000
+ - Authentication token: <your-sonarqube-auth-token>
 - Click Save.
 ## Conclusion
 You have now installed Jenkins and SonarQube on an AWS Ubuntu instance, and added the SonarQube plugin to Jenkins. You can now use Jenkins to automate your build and analysis process using SonarQube.
